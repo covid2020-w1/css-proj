@@ -1,0 +1,106 @@
+/* Create your test CSS here */
+
+h1 + p {
+  color: red;
+  background-color: black;
+  writing-mode: vertical-rl;
+}
+
+.manythings{
+    color: orange;
+}
+
+*{
+    font-weight: bold
+}
+
+.box p{
+    font-size: xx-large;
+}
+
+a:link{
+font-size: xx-large;
+color: green;
+}
+
+#onething{
+    color: green;
+    font-size: xx-large;
+}
+
+.box p:first-child{
+    color: turquoise;
+}
+
+h1, h2, .intro{
+    color: purple
+}
+p{
+    color: grey;
+    transform: rotate(.1turn)
+}
+
+.woke{
+    font-size: 1em;
+    width:25em;
+    background-color:lemonchiffon;
+    color: darkblue;
+    text-shadow:chocolate;
+    text-decoration-color: white;
+    border: 5mm dotted red ;
+    transform: rotate(0.6turn)
+}
+
+.bocks{
+    margin: 100px;
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    transform: rotate(.8turn);
+}
+
+html{
+    background-color: greenyellow;
+}
+
+body{
+    background-image: url("gengar-2.png");
+}
+
+@media (min-width: 35em){ 
+    body{
+        background-color: blue;
+    }
+}
+@media (min-width: 40em){
+    body{
+        background-color: green;
+    }
+}
+
+@media (min-width: 45em){
+    body{
+        background-color: pink;
+    }
+}
+
+@media (min-width: 50em){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 55em){
+    body{
+        background-color: green;
+    }
+}
+.lizard{
+  padding: 100px;
+  margin: 10px;
+  border: 50px;
+  background-color: yellow
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}
+
